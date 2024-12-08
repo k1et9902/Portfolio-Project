@@ -93,7 +93,7 @@ WHERE row_num > 1;
 DELETE FROM layoffs_sample2
 WHERE row_num >= 2;
 
--- STANDARDIZING DATA
+-- 2.STANDARDIZING DATA
 
 UPDATE layoffs_sample2
 SET company = TRIM(company);
